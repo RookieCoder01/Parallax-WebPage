@@ -1,0 +1,93 @@
+body{
+    height: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.parallax_one{
+    background-image: url("./Images/main3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 80vh;
+    width: 100vw;
+}
+
+.parallax_one h2{
+    display: inline;
+    background-color: black;
+    color: white;
+    
+   
+}
+
+.parallax_two{
+    background-image: url("./Images/ben104k.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 80vh;
+    width: 100vw;
+}
+
+.parallax_two h2{
+    display: inline;
+    background-color: black;
+    color: white;
+   
+}
+
+.parallax_three{
+    background-image: url("./Images/oggy.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 80vh;
+    width: 100vw;
+}
+
+.parallax_three h2{
+    display: inline;
+    background-color: black;
+    color: white;
+   
+}
+
+.paragraph{
+    background-color: #cccccc;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-size: 0.85rem;
+    line-height: 1.5;
+   
+    
+
+
+}
+
+@media  screen and (max-width: 300px){
+  .parallax_one,
+  .parallax_two,
+  .parallax_three{
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 80vh;
+    width: 100vw;
+    
+  }
+}
